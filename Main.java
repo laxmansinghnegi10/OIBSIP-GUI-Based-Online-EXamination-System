@@ -159,56 +159,56 @@ class OnlineTestBegin extends JFrame implements ActionListener
         jb[4].setSelected(true);
         if(current==0)
         {
-            l.setText("1: Which animal is known as the 'Ship of the Desert?");
-            jb[0].setText("rat");jb[1].setText("lion");jb[2].setText("camel");jb[3].setText("tiger");
+            l.setText("1: How much memory takes by the Float?");
+            jb[0].setText("2 Bytes");jb[1].setText("3 Bytes");jb[2].setText("4 Bytes");jb[3].setText("5 Bytes");
         }
         if(current==1)
         {
-            l.setText("2: How many days are there in a week?");
-            jb[0].setText("6");jb[1].setText("7");jb[2].setText("8");jb[3].setText("9");
+            l.setText("2: What makes java Platform Independent?");
+            jb[0].setText("Message Code");jb[1].setText("Byte Code");jb[2].setText("Machine Code");jb[3].setText("Assembly code");
         }
         if(current==2)
         {
-            l.setText("3: How many hours are there in a day?");
-            jb[0].setText("24");jb[1].setText("25");jb[2].setText("26");jb[3].setText("27");
+            l.setText("3: Which one of the following is a non linear data structure?");
+            jb[0].setText("Tree");jb[1].setText("Linked List");jb[2].setText("Stack");jb[3].setText("Queue");
         }
         if(current==3)
         {
-            l.setText("4: How many letters are there in english?");
-            jb[0].setText("20");jb[1].setText("26");jb[2].setText("30");jb[3].setText("36");
+            l.setText("4: Which primitive data type in java stores a single value or character?");
+            jb[0].setText("Boolean");jb[1].setText("Char");jb[2].setText("Int");jb[3].setText("Double");
         }
         if(current==4)
         {
-            l.setText("5: Rainbow consist of how many colours?");
-            jb[0].setText("1");jb[1].setText("2");jb[2].setText("5");jb[3].setText("7");
+            l.setText("5: Java was developed in which year?");
+            jb[0].setText("1990");jb[1].setText("1995");jb[2].setText("1992");jb[3].setText("1991");
         }
         if(current==5)
         {
-            l.setText("6: Baby frog is known as?");
-            jb[0].setText("tadpool");jb[1].setText("calf");jb[2].setText("pup");jb[3].setText("cub");
+            l.setText("6: How much memory taken by the boolean data type?");
+            jb[0].setText("1 Byte");jb[1].setText("2 Bytes");jb[2].setText("3 Bytes");jb[3].setText("4 Bytes");
         }
         if(current==6)
         {
-            l.setText("7: Which animal is known as the king of the jungle? ");
-            jb[0].setText("lion");jb[1].setText("tiger");jb[2].setText("cat");
-            jb[3].setText("dog");
+            l.setText("7: Which keyword in java used to break the code in the switch case statement? ");
+            jb[0].setText("break");jb[1].setText("abstract");jb[2].setText("Interface");
+            jb[3].setText("class");
         }
         if(current==7)
         {
-            l.setText("8: Name the National animal of India?");
-            jb[0].setText("fox");jb[1].setText("lion");jb[2].setText("tiger");
-            jb[3].setText("frog");
+            l.setText("8: How much memory take by the Double data type?");
+            jb[0].setText("3 Bytes");jb[1].setText("4 Bytes");jb[2].setText("8 Bytes");
+            jb[3].setText("7 Bytes");
         }
         if(current==8)
         {
-            l.setText("9: Name the national flower of India?");
-            jb[0].setText("Lotus");jb[1].setText("Lilly");jb[2].setText("Rose");jb[3].setText("Jasmine");
+            l.setText("9: Which Software Development Kit(SDK) is required for developing java apps?");
+            jb[0].setText("JDK");jb[1].setText("JRE");jb[2].setText("IntelliJ IDEA");jb[3].setText("JVM");
         }
         if(current==9)
         {
-            l.setText("10:  Name the National fruit of India?");
-            jb[0].setText("apple");jb[1].setText("mango");jb[2].setText("orange");
-            jb[3].setText("banana");
+            l.setText("10:  Which of these are conditional statements in java ?");
+            jb[0].setText("for()");jb[1].setText("if()");jb[2].setText("break");
+            jb[3].setText("continue");
         }
         l.setBounds(30,40,450,20);
         for(int i=0,j=0;i<=90;i+=30,j++)
