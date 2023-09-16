@@ -1,6 +1,6 @@
 # OIBSIP-Online-EXamination
 
-This project creates a simple online examination program with a graphical user interface (GUI). Let's break it down step by step:
+This project creates a simple online examination page with a graphical user interface (GUI). Let's break it down step by step:
 
 
 1- Package and Creator Comments:
